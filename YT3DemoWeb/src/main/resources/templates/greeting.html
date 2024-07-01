@@ -1,0 +1,13 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+    <!--Permite tener las caracteristicas de este motor de plantillas en el html, por ej: <p th:text="... -->
+<head> 
+    <title>Getting Started: Serving Web Content</title> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <p th:text="|Hola ${name}! cómo has estado?|" />
+    <!-- ${nombre} Se llaman EL (Expression Languaje)
+    name, es el nombre que le di al atributo que envio desde el controller (el que esta entre comillas, el otro es la variable).-->
+</body>
+</html>
